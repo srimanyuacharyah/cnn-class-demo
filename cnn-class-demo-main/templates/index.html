@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas P | Data Analyst Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shreyas P.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Shreyas P</span></h1>
+                <h2>Data Analyst</h2>
+                <p>Curious, analytical, and ready to solve problems.</p>
+                <div class="cta-buttons">
+                    <a href="#experience" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a passionate Data Analyst and a Computer Science Engineering student (2023-2027) at 
+                    <strong>Maharaja Institute of Technology Mysore</strong>. 
+                    I love uncovering insights from data and applying technology to real-world challenges.
+                </p>
+                
+                <h3 class="subsection-title">Education</h3>
+                <div class="card education-card">
+                    <h4>Bachelor of Engineering in CSE</h4>
+                    <p class="institution">Maharaja Institute of Technology Mysore</p>
+                    <p class="duration">2023 - 2027</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="card experience-card">
+                    <h3>Data Analyst Intern</h3>
+                    <p class="duration">6 Months</p>
+                    <p class="description">
+                        Gained practical experience in data analysis, working with Python and Flask 
+                        to build data-driven applications.
+                    </p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <div class="container">
+                <h2 class="section-title">Hobbies</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <span class="icon">♟️</span>
+                        <h3>Chess</h3>
+                        <p>Strategizing and problem-solving on the board.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="icon">🏸</span>
+                        <h3>Badminton</h3>
+                        <p>Staying active and competitive on the court.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="icon">📚</span>
+                        <h3>Reading</h3>
+                        <p>Exploring new worlds and ideas through books.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>I'm always curious to do work and take on new challenges.</p>
+                <a href="mailto:email@example.com" class="btn primary">Send Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shreyas P. All rights reserved.</p>
+    </footer>
+</body>
+</html>
